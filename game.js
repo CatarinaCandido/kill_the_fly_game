@@ -1,6 +1,6 @@
 
-var height = 0;
-var width = 0;
+var height;
+var width;
 var lives = 3
 var time = 20;
 
