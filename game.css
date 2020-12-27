@@ -1,0 +1,59 @@
+html{
+    cursor: url("img/mata_mosca.png"), auto;
+}
+
+
+.fly1{
+
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.fly2{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.fly3{
+    display: block;
+    width: 100px;
+    height: 100px;}
+
+.sideA{
+    transform: scaleX(1);
+}
+
+.sideB{
+    transform: scaleX(-1);
+}
+
+body{
+    cursor: url("img/mata_mosca.png"), auto;
+    background-image: url("img/background3.jpg");
+}
+
+#painel{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.lives{
+     float: left;
+     margin: 10px auto;
+ }
+
+#time{
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    margin: auto;
+    display: block;
+    width: 110px;
+    height: 50px;
+    border: solid 2px black;
+    background: #f5f5dc;
+}

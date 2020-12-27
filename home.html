@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link href="home.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <script>
+
+        function initGame(){
+
+            var level = document.getElementById('level').value
+
+            if(level === ''){
+                return false
+            }
+            location.replace('game.html?' + level)
+        }
+
+
+    </script>
+
+</head>
+<body>
+
+<container id="menuF">
+    <span id="title"> <strong>KILL THE FLY </strong>   </span>
+
+    <div>
+        <label id="chooseLevel"> Choose the level </label>
+        <select id="level" >
+            <option value="" disabled selected> -- Levels -- </option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+            <option value="impossible">Impossible</option>
+        </select>
+
+        <div id="buttons-box">
+            <button class="btn" onclick="initGame()"> Start </button>
+        </div>
+    </div>
+
+</container>
+
+</body>
+</html>

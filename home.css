@@ -1,0 +1,83 @@
+html{
+    cursor: url("img/mata_mosca.png"), auto;
+}
+
+body{
+
+    background-image: url("img/background3.jpg");
+}
+
+#flysMenu{
+
+    display: flex;
+    flex-wrap: wrap;
+    border: #1c1a1a 2px solid;
+    width: 1000px;
+}
+
+#title{
+    text-align: center;
+    display: block;
+    width: 600px;
+    font-size: 90px;
+    margin: 200px auto ;
+    font-family: 'Indie Flower', cursive;;
+}
+
+#menuF{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+}
+
+#chooseLevel{
+    position: relative;
+    display: block;
+
+    text-align: center;
+    bottom: 200px;
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+#level{
+    position: relative;
+    display: block;
+
+    margin: auto;
+    bottom: 200px;
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    width: 180px;
+}
+
+#buttons-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 300px;
+}
+
+
+.btn{
+
+    position: relative;
+    bottom: 100px;
+
+    color: beige;
+    background-color: #e72424;
+    border: #1f180d 1px solid;
+    box-shadow: 5px 7px 5px #1c1a1a;
+
+    border-radius: 20px ;
+    display: block;
+    float: left;
+    outline: none;
+    margin: auto;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+}

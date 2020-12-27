@@ -1,0 +1,16 @@
+html{
+    cursor: url("img/mata_mosca.png"), auto;
+}
+
+
+body{
+    background-image: url("img/background3.jpg");
+}
+
+
+#gameOverImg{
+
+    display: block;
+    margin: auto;
+
+}
