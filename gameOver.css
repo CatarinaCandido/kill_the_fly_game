@@ -14,3 +14,31 @@ body{
     margin: auto;
 
 }
+
+#buttons-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 300px;
+}
+
+
+.btn{
+
+    position: relative;
+    bottom: 100px;
+
+    color: beige;
+    background-color: #e72424;
+    border: #1f180d 1px solid;
+    box-shadow: 5px 7px 5px #1c1a1a;
+
+    border-radius: 20px ;
+    display: block;
+    float: left;
+    outline: none;
+    margin: auto;
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+}
